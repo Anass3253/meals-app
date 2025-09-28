@@ -56,6 +56,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
 
   @override
   Widget build(BuildContext context) {
+    print(Theme.of(context).colorScheme.surface);
     return AnimatedBuilder(
         animation: _animationController,
         child: GridView(

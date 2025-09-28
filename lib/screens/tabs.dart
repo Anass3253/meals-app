@@ -70,6 +70,7 @@ class _TabScreenState extends ConsumerState<TabScreen> {
       appBar: AppBar(
         title: Text(activePagetitle),
       ),
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: activePage,
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: activeScreenIndex,
